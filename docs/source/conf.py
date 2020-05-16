@@ -26,7 +26,6 @@ author = 'Mohit Anand'
 # The full version, including alpha/beta/rc tags
 release = '0.0.1'
 
-
 # -- General configuration ---------------------------------------------------
 
 # Add any Sphinx extension module names here, as strings. They can be
@@ -35,8 +34,10 @@ release = '0.0.1'
 extensions = ['recommonmark',  # to use .md along with .rst
               'sphinx.ext.autodoc',  # import doc from docstrings
               'sphinx.ext.linkcode',  # linking the source code on github
-              'sphinx_sitemap', # generate sitemap
-              'sphinxcontrib.napoleon']  # to support Google style docstrings for autodoc
+              'sphinxcontrib.napoleon',
+              'sphinx_rtd_theme']  # to support Google style docstrings for autodoc
+
+html_theme = "sphinx_rtd_theme"
 
 # Add any paths that contain templates here, relative to this directory.
 templates_path = ['_templates']
