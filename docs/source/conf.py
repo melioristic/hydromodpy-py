@@ -12,8 +12,8 @@
 #
 import os
 import sys
-#sys.path.insert(0, os.path.abspath('/Users/mohit/github/hydromod-py/'))
-sys.path.insert(0, os.path.abspath('../'))
+
+sys.path.insert(0, os.path.abspath('/Users/mohit/github/hydromodpy-py/'))
 
 
 
@@ -35,6 +35,9 @@ extensions = ['recommonmark',  # to use .md along with .rst
               'sphinx.ext.autodoc',  # import doc from docstrings
               'sphinx.ext.linkcode',  # linking the source code on github
               'sphinx_rtd_theme']  # to support Google style docstrings for autodoc
+
+master_doc = 'index'
+source_suffix = ['.rst', '.md']
 
 html_theme = "sphinx_rtd_theme"
 
