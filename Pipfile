@@ -9,6 +9,8 @@ pylint = "*"
 [packages]
 numpy = "*"
 scipy = "*"
+sphinxcontrib-napoleon = "*"
+setuptools = "*"
 
 [requires]
 python_version = "3.8"

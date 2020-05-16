@@ -3,7 +3,7 @@ import numpy as np
 class GOF(object):
 
     """
-    Good of Fitneess are used to compare simulation with observations. GOF methods include, mean error, percent bias, mean absolute error, root mean square error, Nash Shutcliffe Efficiency and Index of Agreement.
+    Goodness of Fit are used to compare simulation with observations. GOF methods include, mean error, percent bias, mean absolute error, root mean square error, Nash Shutcliffe Efficiency and Index of Agreement.
 
     Attributes:
         simulation(numpy.ndarray) : Simulation from a model
@@ -11,10 +11,20 @@ class GOF(object):
 
     """
     def __init__(self, sim:np.ndarray, obs:np.ndarray):
+        """
+        Args:
+            sim (np.ndarray) : Simulation of some model
+            obs (np.ndarray) : Observation or expected ground truth
+        """
+
         self.simulation = sim
         self.observation = obs
 
     def mean_error(self):
+        """
+        Returns:
+            np.ndarray : The mean error of the observation and simulation in the GOF class
+        """
         return np.mean(self.observation-self.simulation)
 
     def percent_bias(self):
