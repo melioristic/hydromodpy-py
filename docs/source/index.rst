@@ -1,23 +1,14 @@
 .. hydromodpy documentation master file, created by
-   sphinx-quickstart on Fri May 15 11:58:20 2020.
+   sphinx-quickstart on Sat May 16 15:05:06 2020.
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
-
-Another simple header
-=====================
-
-Here is some text explaining the documentation
-
-   print("hello")
-
 
 Welcome to hydromodpy's documentation!
 ======================================
 
 .. toctree::
-   :maxdepth: 3
-   
-   :caption: Guide:
+   :maxdepth: 2
+   :caption: Contents:
 
 
 
