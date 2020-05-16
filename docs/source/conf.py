@@ -34,7 +34,6 @@ release = '0.0.1'
 extensions = ['recommonmark',  # to use .md along with .rst
               'sphinx.ext.autodoc',  # import doc from docstrings
               'sphinx.ext.linkcode',  # linking the source code on github
-              'sphinxcontrib.napoleon',
               'sphinx_rtd_theme']  # to support Google style docstrings for autodoc
 
 html_theme = "sphinx_rtd_theme"
