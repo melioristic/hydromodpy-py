@@ -134,3 +134,7 @@ MyReadME.md
 
 # VSCode
 .vscode
+
+# 
+.DS_Store
+/.DS_Store
